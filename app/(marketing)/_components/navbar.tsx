@@ -1,7 +1,7 @@
-import Link from "next/link";
+import Link from 'next/link';
 
-import { Logo } from "@/components/logo";
-import { Button } from "@/components/ui/button";
+import { Logo } from '@/components/logo';
+import { Button } from '@/components/ui/button';
 
 const Navbar = () => {
   return (
@@ -10,14 +10,14 @@ const Navbar = () => {
         <Logo />
         <div className="space-x-4 md:block md:w-auto flex items-center justify-between w-full">
           <Button size="sm" variant="outline" asChild>
-            <Link href="/sign-in">
-              Login
-            </Link>
+            <Link href="/sign-in">Login</Link>
           </Button>
-          <Button size="sm" asChild>
-            <Link href="/sign-up">
-              Get Taskify for free
-            </Link>
+          <Button
+            size="sm"
+            asChild
+            className="text-amber-700 hover:bg-gradient-to-r from-fuchsia-600 to-pink-600 hover:text-white rounded-md w-fit hover:border-transparent"
+          >
+            <Link href="/sign-up">Get Taskify for free</Link>
           </Button>
         </div>
       </div>
@@ -25,4 +25,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar
+export default Navbar;
