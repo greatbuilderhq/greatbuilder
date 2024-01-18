@@ -29,7 +29,7 @@ const MarketingPage = () => {
           No 1 task managment
         </div>
         <h1 className="text-3xl md:text-6xl text-center text-neutral-800 mb-6">
-          Taskify helps team move
+          GreatBuilder helps team move
         </h1>
         <div className="text-3xl md:text-6xl bg-gradient-to-r from-fuchsia-600 to-pink-600 text-white px-4 p-2 rounded-md  w-fit">
           work forward.
@@ -43,14 +43,14 @@ const MarketingPage = () => {
       >
         Collaborate, manage projects, and reach new productivity peaks. From
         high rises to the home office, the way your team works is unique -
-        accomplish it all with Taskify.
+        accomplish it all with GreatBuilder.
       </div>
       <Button
         size="lg"
         asChild
         className="mt-6 text-black hover:bg-amber-100 rounded-full hover:text-amber-700 w-fit border shadow-sm "
       >
-        <Link href="/sign-up">Get Taskify for free</Link>
+        <Link href="/sign-up">Get GreatBuilder for free</Link>
       </Button>
     </div>
   );
