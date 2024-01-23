@@ -17,7 +17,7 @@ const Navbar = () => {
             asChild
             className="text-amber-700 hover:bg-gradient-to-r from-fuchsia-600 to-pink-600 hover:text-white rounded-md w-fit hover:border-transparent"
           >
-            <Link href="/sign-up">Get Taskify for free</Link>
+            <Link href="/sign-up">Get GreatBuilder for free</Link>
           </Button>
         </div>
       </div>
